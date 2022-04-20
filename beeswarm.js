@@ -62,7 +62,7 @@ let tooltip = d3.select("#svganchor").append("div")
     .style("opacity", 0);
 
 // Load and process data
-d3.csv("http://0.0.0.0:8000/oc_index_2021.csv").then(function (data) {
+d3.csv("oc_index_2021.csv").then(function (data) {
 
     let dataSet = data;
 
