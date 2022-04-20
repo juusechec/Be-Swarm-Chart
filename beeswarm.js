@@ -16,7 +16,7 @@ let Count = {
 
 // Data structure describing legend fields value
 let Legend = {
-    total: "Criminality Index",
+    total: "Criminality Index ",
     perCap: "Per Capita Deaths"
 };
 
